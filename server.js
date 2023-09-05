@@ -1,4 +1,6 @@
 const http = require('http');
+// require : 에플리케이션 구동을 위해 http라는 모듈이 필요하다는 것 의미
+
  
 const hostname = '127.0.0.1';
 const port = 3000;
