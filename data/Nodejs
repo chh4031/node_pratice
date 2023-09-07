@@ -1,0 +1,18 @@
+13
+fs.readdir works, but cannot use file name glob patterns like ls /tmp/*core*. Check out github.com/isaacs/node-glob. Globs can even search in sub-directories. – 
+Jess
+ Dec 2, 2013 at 17:32 
+2
+Checkout NPM's readdir-recursive module though if you're looking for the names of files in subdirectories also – 
+Ethan Davis
+ Jun 10, 2016 at 23:00
+es7 method with await here – 
+Evan Carroll
+ Apr 28, 2017 at 21:58
+1
+fs.readdir is a simple async solution - examples here – 
+drorw
+ Apr 18, 2019 at 20:49
+Still not answer using an iterator? I've 2.5 millions of files to scan… I do not want to get a list of 2.5m of path after 10 minutes. – 
+Flavien Volken
+ May 13, 2019 at 20:17
